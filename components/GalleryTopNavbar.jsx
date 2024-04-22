@@ -14,7 +14,7 @@ export default function GalleryTopNavbar({active,setActive}) {
                 <button className='p-3 font-semibold' style={{ text: active === "image" ? "black" : "transparent", color: active === "image" ? "darkblue" : "black" }} onClick={() => setActive("image") }>Image</button>
                 <button className='p-3 font-semibold' style={{ text: active === "video" ? "black" : "transparent", color: active === "video" ? "darkblue" : "black" }} onClick={() => setActive("video")}>Video</button>
                 <button className='p-3 font-semibold' style={{ text: active === "reels" ? "black" : "transparent", color: active === "reels" ? "darkblue" : "black" }} onClick={() => setActive("reels")}>Reels</button>
-                <button className='p-3 font-semibold' style={{ text: active === "memes" ? "black" : "transparent", color: active === "memes" ? "darkblue" : "black" }} onClick={() => setActive("memes")}>Memes</button>
+                <button className='p-3 font-semibold' style={{ text: active === "memes" ? "black" : "transparent", color: active === "memes" ? "darkblue" : "black" }} onClick={() => setActive("memes")}>Trolls</button>
             </div>
         </div>
     )

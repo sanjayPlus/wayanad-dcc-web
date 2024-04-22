@@ -13,7 +13,6 @@ const firebaseConfig = {
   measurementId: "G-BR03333FQF"
 };
 
-
 firebase.initializeApp(firebaseConfig);
 
 // Retrieve firebase messaging
